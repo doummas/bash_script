@@ -19,7 +19,7 @@ if [[ "$1" == "THM" ]]; then
 elif [[ "$1" == "HTB" ]]; then
 	create_dir "$1" "$2"
 	
-elif [[ "$1" == "Vulnhub" ]]: then
+elif [[ "$1" == "Vulnhub" ]]; then
 	create_dir "$1" "$2"
 
 fi
