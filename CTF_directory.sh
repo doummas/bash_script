@@ -1,4 +1,4 @@
-h#!/bin/bash
+#!/bin/bash
 
 #site="$1"
 #lab="$2"
