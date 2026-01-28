@@ -1,6 +1,6 @@
 #!/bin/bash
-#This script is for people who care of privacy if a bug appeard in the vpn or in the tor node disconnected and you're scanning a website or in sensitive directory in it the operating system will be shutdown immediatl
-# you can change the shutdown command to  ifdown eth but you need to set the cron job as root 
+#This script is for people who care for privacy if a bug appeard in the vpn or in the tor node disconnected and you're scanning a website or in sensitive directory in it the operating system will be shutdown immediatl
+# you can change the shutdown command to  ifdown eth0 but you need to set the cron job as root 
 provider=$(curl -s ipinfo.io/org)
 echo "$provider"
 
